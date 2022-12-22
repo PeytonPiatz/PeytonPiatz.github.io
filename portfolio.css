@@ -308,6 +308,12 @@ img {
 	border: 8px solid var(--light-blue);
 	object-fit: cover;
 }
+a img {
+	transition: .5s;
+}
+a img:hover {
+	border-color: var(--dark-blue);
+}
 #video {
 	margin: 0 auto;
 	padding-bottom: 2em;
